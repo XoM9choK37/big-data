@@ -1,0 +1,9 @@
+﻿column_name,description
+PAINDX2_yes,Participated in 150 minutes or more of Aerobic Physical Activity per week (variable calculated from one or more BRFSS questions)
+PAINDX2_no,Did not participate in 150 minutes or more of Aerobic Physical Activity per week (variable calculated from one or more BRFSS questions)
+PASTAE2_yes,Participated in enough Aerobic and Muscle Strengthening exercises to meet guidelines (variable calculated from one or more BRFSS questions)
+PASTAE2_no,Did not participate in enough Aerobic and Muscle Strengthening exercises to meet guidelines (variable calculated from one or more BRFSS questions)
+PASTRNG_yes,Participated in muscle strengthening exercises two or more times per week (variable calculated from one or more BRFSS questions)
+PASTRNG_no,Did not participate in muscle strengthening exercises two or more times per week (variable calculated from one or more BRFSS questions)
+TOTINDA_yes,Participated in physical activities during the last month. (variable calculated from one or more BRFSS questions)
+TOTINDA_no,Did not participate in any physical activities during the past month. (variable calculated from one or more BRFSS questions)
