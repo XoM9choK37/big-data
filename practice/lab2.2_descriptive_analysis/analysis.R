@@ -41,7 +41,7 @@ rownames(stats_df) <- NULL
 View(stats_df, "Статистика")
 write.csv(stats_df, "stats.csv", row.names = FALSE)
 
-games_to_plot <- c("Minecraft", "GTA", "Ведьмак", "Half.Life", "L.A..Noire")
+games_to_plot <- c("Minecraft", "GTA", "Ведьмак", "Half.Life")
 for (i in seq_along(games_to_plot)) {
   game <- games_to_plot[i]
   mean_val <- mean(df[[game]], na.rm = TRUE)
