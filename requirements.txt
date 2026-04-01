@@ -1,0 +1,2 @@
+### Conda environment \/ \/ \/ 
+conda create --name big-data python=3.10 && conda activate big-data && conda install anaconda::requests && conda install conda-forge::pandas && pip install cianparser && pip install playwright && playwright install chromium
