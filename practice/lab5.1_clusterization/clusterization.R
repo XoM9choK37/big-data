@@ -6,6 +6,8 @@ library(scatterplot3d)
 library(parameters)
 library(NbClust)
 
+set.seed(41)
+
 data("titanic_train")
 
 cat("Первые 10 строк:\n")
@@ -191,3 +193,11 @@ cat("\nКластеры упорядочены по возрастанию до�
 cat("  БЕДНЫЕ (красный): самая низкая стоимость билета, 3 класс, выживаемость 39%\n")
 cat("  СРЕДНИЕ (жёлтый): средняя стоимость билета, 2-3 класс, выживаемость 33.7%\n")
 cat("  БОГАТЫЕ (синий): высокая стоимость билета, 1 класс, выживаемость 55.9%\n\n")
+
+final_df <- titanic_train %>%
+  mutate(
+    cluster = titanic_clust$cluster_label  # "Бедные", "Средние", "Богатые"
+  )
+
+head(final_df)
+table(final_df$cluster)
